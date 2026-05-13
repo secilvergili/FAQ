@@ -1,0 +1,26 @@
+[
+ {
+   "categoryTitle": "Verimix V2B",
+   "icon": "HiOutlineBookOpen",
+   "title": "Sıkça Sorulan Sorular",
+   "description": "Verimix V2B deneyiminizi kolaylaştıracak ipuçları",
+   "articleCount": 10,
+   "createdBy": "Verimix Destek ve Serkan Okumuş"
+ },
+ {
+   "categoryTitle": "Verimix V2B",
+   "icon": "HiOutlineSpeakerphone",
+   "title": "Sürüm Duyuruları",
+   "description": "Verimix V2B Sürüm Duyuruları",
+   "articleCount": 1,
+   "createdBy": "Serkan Okumus"
+ },
+ {
+   "categoryTitle": "Verimix V2B",
+   "icon": "HiOutlineVideoCamera",
+   "title": "Eğitim Videoları",
+   "description": "Verimix V2B Uygulaması Eğitim Videoları ile Hızlı ve Kolay Öğrenin",
+   "articleCount": 1,
+   "createdBy": "Verimix Destek"
+ }
+]

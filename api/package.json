@@ -1,0 +1,28 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js",
+    "seed": "node src/dev-data/seed.js",
+    "seed:groups": "node src/dev-data/seedGroups.js",
+    "seed:articles": "node src/dev-data/seedArticles.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "helmet": "^8.1.0",
+    "mongoose": "^9.3.3",
+    "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
