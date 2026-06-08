@@ -3,12 +3,19 @@ import Article from "../models/articleModel.js";
 // 🔹 Tüm makaleler (opsiyonel filtreli)
 export const getArticles = async (req, res) => {
   try {
-    const { categoryId, groupId } = req.query;
-
+    const { categoryId, groupId, search  } = req.query;
+    
     const filter = {};
 
     if (categoryId) filter.categoryId = categoryId;
     if (groupId) filter.groupId = groupId;
+
+    if (search) {
+      filter.$or = [
+        { title: { $regex: search, $options: "i" } },
+        { content: { $regex: search, $options: "i" } },
+      ];
+    }
 
     const articles = await Article.find(filter).sort({ createdAt: -1 });
 
