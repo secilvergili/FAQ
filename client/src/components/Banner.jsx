@@ -12,7 +12,7 @@ const Banner = ({ search, setSearch }) => {
       {/* Content */}
       <div className="relative z-10 text-center w-full max-w-2xl px-4">
         <h1 className="text-2xl md:text-4xl font-semibold text-gray-700 mb-3">
-          Verimix Yardım Merkezine Hoş Geldiniz
+          
         </h1>
 
         <p className="text-gray-500 mb-6">

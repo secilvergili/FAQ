@@ -1,17 +1,15 @@
 [
   {
-    "categoryTitle": "Verimix V2B",
+    "categoryTitle": "",
     "groupTitle": "Sıkça Sorulan Sorular",
-    "title": "Verimix V2B Versiyon 1.00 Yayında!",
-    "content": "\n    <h2>📢 Sürüm Duyurusu</h2>\n\n    <p><strong>Verimix V2B Uygulaması Versiyon 1.00 Yayında!</strong></p>\n\n    <p>Verimix Yazılım olarak, uzun süredir üzerinde çalıştığımız Verimix V2B Uygulamasının ilk sürümü (v1.00) 10 Ekim itibariyle firmaların kullanımına sunuldu.</p>\n\n    <p>Yeni nesil B2B iş yönetim platformumuz, işletmelerin siparişten tahsilata, stok yönetiminden raporlamaya kadar tüm süreçlerini dijital, güvenli ve hızlı bir şekilde yönetmelerini sağlıyor.</p>\n\n    <h3>Verimix V2B v1.00 ile gelen başlıca modüller:</h3>\n\n    <ul>\n      <li>✅ Sipariş Yönetimi & Onay Sistemi</li>\n      <li>✅ Tahsilat (Sanal POS)</li>\n      <li>✅ Stok Yönetimi & Cari Risk Takibi</li>\n      <li>✅ Gösterge Panelleri (Standart & Gelişmiş)</li>\n      <li>✅ Kampanya Yönetimi & Raporlama</li>\n      <li>✅ KVKK Politikası ve Sözleşme Takibi</li>\n      <li>✅ Bildirim Yönetimi (Email, SMS, Tema Tanımlama)</li>\n      <li>✅ Duyurular & Döküman Yönetimi</li>\n      <li>✅ WhatsApp Entegrasyonu</li>\n      <li>✅ Mobil Uygulama (Android & iOS) <em>Yakında</em></li>\n      <li>✅ Çoklu Dil & Çoklu Para Birimi Desteği</li>\n      <li>✅ ERP & SMS Entegrasyonu</li>\n      <li>✅ Çift Kimlik Doğrulama, Captcha & Rol Bazlı Yetkilendirme</li>\n      <li>✅ Gelişmiş Loglama</li>\n    </ul>\n\n    <p>İşletmenizin dijital dönüşümüne katkı sağlayacak Verimix V2B, ölçeklenebilir yapısı, güvenli altyapısı ve kullanıcı dostu arayüzü ile iş süreçlerinizi daha verimli hale getiriyor.</p>\n\n    <p>👉 Daha fazla bilgi ve demo talepleri için: \n      <a href='https://www.verimix.com.tr' target='_blank'>\n        www.verimix.com.tr\n      </a>\n    </p>\n  ",
-    "createdBy": "Serkan Okumuş"
+    "title": "",
+    "content": ""
   },
   {
-    "categoryTitle": "Verimix V2B",
+    "categoryTitle": "",
     "groupTitle": "Sıkça Sorulan Sorular",
-    "title": "Uygulama Yönetimi - Rol Tabanlı Yetkilendirme",
-    "content": "\n <p>Sol tarafta açık olan \\\"Menü\\\" sayfasında \\\"Uygulama Yönetimi\\\" başlığı altında bulunan \\\"Rol Tabanlı Yönetim\\\" butonuna tıklayınız. Açılan ara sekmeden \\\"Kullanıcılar\\\" butonuna tıklayınız.\n <img src=''/> \\\"Kullanıcılar\\\" bölümü ekranda açılacaktır. Açılan sayfada yapmak istediğiniz işleme göre aşağıdaki adımları takip edebilirsiniz. Sol tarafta açık olan \\\"Menü\\\" sayfasında \\\"Uygulama Yönetimi\\\" başlığı altında bulunan \\\"Rol Tabanlı Yönetim\\\" butonuna tıklayınız. Açılan ara sekmeden \\\"Kullanıcılar\\\" butonuna tıklayınız.\n\n<img src=\\\"http://localhost:3001/images/1.png\\\" /><p>\\\"Kullanıcılar\\\" bölümü ekranda açılacaktır. Açılan sayfada yapmak istediğiniz işleme göre aşağıdaki adımları takip edebilirsiniz.</p>",
+    "title": "",
 
-    "createdBy": "Verimix Destek"
+    "createdBy": ""
   }
 ]

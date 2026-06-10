@@ -44,7 +44,7 @@ const Category = () => {
           </h1>
 
           <p className="text-gray-500 mt-2">
-          Verimix V2B Yazılımı
+          
           </p>
 
         </div>
