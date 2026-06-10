@@ -26,4 +26,4 @@ A full-stack knowledge base application built with React, Node.js, Express, and 
 
 ## Status
 
-Currently under active development. Authentication, article management, and admin functionality have been implemented.
+Currently under development. Authentication, admin access control, article listing, and article deletion functionality have been implemented.
