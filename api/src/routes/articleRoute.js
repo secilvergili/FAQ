@@ -20,13 +20,19 @@ router.post(
   verifyToken,
   isAdmin,
   async (req, res) => {
+    console.log(req.body)
   try {
     const newArticle = new Article(req.body);
+    console.log("NEW ARTICLE:", newArticle);
     const savedArticle = await newArticle.save();
 
     res.status(201).json(savedArticle);
   } catch (error) {
-    res.status(500).json({ message: error.message });
+    console.log("CREATE ARTICLE ERROR:", error);
+  
+    res.status(500).json({
+      message: error.message,
+    });
   }
 });
 

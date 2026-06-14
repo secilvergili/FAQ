@@ -6,8 +6,9 @@ import Group from "./pages/Group/index.jsx";
 import Article from "./pages/Article/index.jsx";
 import Login from "./pages/Login/index.jsx";
 import Admin from "./pages/Admin/index.jsx";
-import protectedRoute from "./components/protectedRoutes.jsx";
 import ProtectedRoute from "./components/protectedRoutes.jsx";
+import NewArticle from "./pages/NewArticle/index.jsx";
+import EditArticle from "./pages/EditArticle/index.jsx";
 
 const App = () => {
   return (
@@ -34,6 +35,8 @@ const App = () => {
       </ProtectedRoute>
 
       } />
+      <Route path="/admin/new" element={<NewArticle />} />
+      <Route path="/admin/edit/:id" element={<EditArticle />} />
     </Routes>
   );
 };
