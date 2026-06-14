@@ -1,11 +1,29 @@
-import {useState} from "react";
+import {useState, useEffect } from "react";
 import API from "../../services/api.js";
+
 
 const NewArticle = () => {
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
+  const [categories, setCategories] = useState([]);
+  const [groups, setGroups] = useState([]);
 
+  const [selectedCategory, setSelectedCategory] = useState("");
+  const [selectedGroup, setSelectedGroup] = useState("");
 
+  useEffect(()=>{
+    API.get("/categories")
+    .then((res)=>{
+      setCategories(res.data);
+    })
+    .catch((err)=>console.log(err));
+
+    API.get(`/groups?categoryId=${selectedCategory}`)
+    .then((res)=>{
+      setGroups(res.data);
+    })
+    .catch((err)=>console.log(err));
+    }, [selectedCategory]);
 
   const handleSubmit = async ()=> {
 
@@ -16,8 +34,8 @@ const NewArticle = () => {
         title,
         content,
       
-        categoryId: "69e4eaff2a56ce10e81f6220",
-      groupId: "69e4eb0bd501d826ec058e58",
+        categoryId: selectedCategory ,
+      groupId: selectedGroup,
       });
     } catch (error) {
       console.log(error);      
@@ -28,6 +46,39 @@ const NewArticle = () => {
      <h1 className="text-2xl font-bold mb-6">
       Create New Article
       </h1>
+
+      <select 
+        value={selectedCategory}
+        onChange={(e)=>setSelectedCategory(e.target.value)}
+        className="w-full border p-3 rounded-lg mb-4"
+      >
+        <option value="">Select Category</option>
+        {categories.map((category) => (
+          <option 
+          key={category._id}
+          value={category._id}
+          >
+            {category.title}
+          </option>
+        ))}
+      </select>
+
+      <select
+        value={selectedGroup}
+        onChange={(e)=>setSelectedGroup(e.target.value)}
+        className="w-full border p-3 rounded-lg mb-4"
+      >
+        <option value="">Select Group</option>
+
+        {groups.map((group)=>(
+          <option
+          key={group._id} 
+          value={group._id}
+          >
+            {group.title}
+          </option>
+        ))}
+      </select>
 
       <input 
       type="text"

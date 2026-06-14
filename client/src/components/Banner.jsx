@@ -15,8 +15,8 @@ const Banner = ({ search, setSearch }) => {
           
         </h1>
 
-        <p className="text-gray-500 mb-6">
-          Merhaba, size nasıl yardımcı olabiliriz?
+        <p className="text-black-500 mb-6">
+        Building a Full-Stack Knowledge Base Platform with React, Node.js, and MongoDB
         </p>
 
         <SearchInput search={search} setSearch={setSearch} />

@@ -5,7 +5,7 @@ const Header = ({ search, setSearch }) => {
     <div>
       {/* Logo */}
       <div className="absolute top-0 left-0 w-full flex items-center justify-between px-6 py-4 z-20">
-        <img src="/VeLogo.jpeg" alt="logo" className="h-10" />
+        <img src="" alt="logo" className="h-10" />
       </div>
 
       {/* Banner */}
